@@ -2,6 +2,7 @@ package br.com.grupo6.projetoGrupo6.controller;
 
 import br.com.grupo6.projetoGrupo6.entities.User;
 import br.com.grupo6.projetoGrupo6.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,6 +12,7 @@ import java.util.List;
 @RequestMapping(value = "/users")
 public class UserController {
 
+    @Autowired
     private UserService userService;
 
     @GetMapping
@@ -25,9 +27,14 @@ public class UserController {
         return ResponseEntity.ok().body(user);
     }
 
-    @PostMapping
-    public ResponseEntity<User> createUser(@RequestBody User user){
-        return ResponseEntity.ok().body(user);
+    @RequestMapping(value = "/create", method = RequestMethod.POST)
+    public User create(@RequestBody User user){
+        return this.userService.create(user);
+    }
+
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.PUT)
+    public User update(@PathVariable Long id , @RequestBody User user){
+        return this.userService.update(id, user);
     }
 
 }
