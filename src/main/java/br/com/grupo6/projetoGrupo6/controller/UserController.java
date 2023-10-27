@@ -37,4 +37,9 @@ public class UserController {
         return this.userService.update(id, user);
     }
 
+    @RequestMapping(value = "/delete/{id}")
+    public void delete(@PathVariable Long id){
+        this.userService.delete(id);
+    }
+
 }
