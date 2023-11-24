@@ -1,7 +1,7 @@
-package br.com.grupo6.projetoGrupo6.controller;
+package br.com.grupoFinal.controller;
 
-import br.com.grupo6.projetoGrupo6.entities.User;
-import br.com.grupo6.projetoGrupo6.service.UserService;
+import br.com.grupoFinal.entities.User;
+import br.com.grupoFinal.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

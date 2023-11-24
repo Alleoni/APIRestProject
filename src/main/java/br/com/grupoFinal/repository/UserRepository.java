@@ -1,6 +1,6 @@
-package br.com.grupo6.projetoGrupo6.repository;
+package br.com.grupoFinal.repository;
 
-import br.com.grupo6.projetoGrupo6.entities.User;
+import br.com.grupoFinal.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

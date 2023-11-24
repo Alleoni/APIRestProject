@@ -1,6 +1,6 @@
-package br.com.grupo6.projetoGrupo6.api;
+package br.com.grupoFinal.api;
 
-import br.com.grupo6.projetoGrupo6.entities.Beer;
+import br.com.grupoFinal.entities.Beer;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

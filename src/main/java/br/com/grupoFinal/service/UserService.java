@@ -1,7 +1,7 @@
-package br.com.grupo6.projetoGrupo6.service;
+package br.com.grupoFinal.service;
 
-import br.com.grupo6.projetoGrupo6.entities.User;
-import br.com.grupo6.projetoGrupo6.repository.UserRepository;
+import br.com.grupoFinal.entities.User;
+import br.com.grupoFinal.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

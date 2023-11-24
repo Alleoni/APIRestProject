@@ -1,4 +1,4 @@
-package br.com.grupo6.projetoGrupo6;
+package br.com.grupoFinal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

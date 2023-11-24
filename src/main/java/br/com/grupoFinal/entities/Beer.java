@@ -1,4 +1,4 @@
-package br.com.grupo6.projetoGrupo6.entities;
+package br.com.grupoFinal.entities;
 
 import lombok.Data;
 

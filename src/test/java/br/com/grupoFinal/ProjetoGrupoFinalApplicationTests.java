@@ -1,10 +1,10 @@
-package br.com.grupo6.projetoGrupo6;
+package br.com.grupoFinal;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProjetoGrupo6ApplicationTests {
+class ProjetoGrupoFinalApplicationTests {
 
 	@Test
 	void contextLoads() {
